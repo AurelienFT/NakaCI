@@ -1,0 +1,13 @@
+servers:
+  linux1:
+    ssh:
+      user: test
+      ip: 0.0.0.0
+  linux2:
+    ssh:
+      user: test
+      ip: 0.0.0.0
+
+monitor:
+  - cpu
+  - ram
